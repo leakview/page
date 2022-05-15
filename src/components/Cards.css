@@ -99,6 +99,12 @@ h1 {
   line-height: 24px;
 }
 
+.car{
+  background-image: url('/public/images/img-8.jpg');
+  
+}
+
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;

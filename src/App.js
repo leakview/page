@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Price from '../../app-uno/src/components/pages/Price';
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
         <Navbar />
         <Routes>
            <Route path='/' element={<Home/>} />
-           <Route path='/' element={<Services/>} />
-           <Route path='/' element={<Products/>} />
-           <Route path='/' element={<SignUp/>} />
+           <Route path='/Services' element={<Services/>} />
+           <Route path='/Products' element={<Products/>} />
+           <Route path='/SignUp' element={<SignUp/>} />
+           <Route path='/Price' element={<Price/>} />
+           
           {/* <Route path='/' exact component={Home} /> */}
           {/* <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
